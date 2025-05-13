@@ -79,11 +79,11 @@ body {
     padding: 0.3rem 1rem;
     border-radius: 10px;
     display: inline-block;
-    margin: 0.5rem 0;
+    margin: 0.5rem;
   }
   
   .tagline {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     color: #FFFFC5;
     font-family: 'Koulen', cursive;
     margin-top: 0.8rem;  /* pulls it upward */
@@ -251,3 +251,134 @@ body {
   text-decoration: underline;
   color: #f78ca2; /* slightly brighter pink on hover */
 }
+
+/* GALLERY PAGE */
+
+.gallery-page {
+  padding: 2rem;
+  background-color: #c6cfa3;
+}
+
+.gallery-title {
+  text-align: center;
+  font-size: 3rem;
+  font-family: 'Koulen', cursive;
+  background-color: #c49a6c;
+  color: #f9e8ed;
+  border-radius: 12px;
+  padding: 1rem 2rem;
+  display: inline-block;
+  margin: 1rem auto;
+  display: block;
+  width: fit-content;
+  margin-top: -0.3rem;
+}
+
+.gallery-subtitle {
+  text-align: center;
+  color: #fdf3f5;
+  font-family: 'Koulen', cursive;
+  margin-bottom: 2rem;
+  font-size: 1.8rem;
+  margin-top: 0.5rem;
+}
+
+.gallery-section {
+  margin-bottom: 4rem;
+}
+
+.section-header {
+  font-family: 'Koulen', cursive;
+  font-size: 1.8rem;
+  background-color: #f4b6c2;
+  color: #FFFFC5;
+  padding: 0.5rem 1.5rem;
+  border-radius: 10px;
+  display: block;
+  margin: 0 auto 1.5rem auto;
+  text-align: center;
+}
+
+.section-description {
+  text-align: center;
+  margin: 1rem 0 2rem 0;
+  font-family: 'Gluten', cursive;
+  font-size: 1.1rem;
+  color: #54342a;
+}
+
+.star {
+  color: #FFFFC5;
+  font-size: 1.3em;
+  margin: 0 0.3rem;
+}
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* exactly 2 per row */
+  gap: 1.5rem;
+  justify-items: center;
+}
+
+.image-grid img {
+  width: 100%;
+  max-width: 230px;
+  border-radius: 10px;
+  border: 5px solid #f9d5dc;
+}
+
+.video-column {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+}
+
+.video-column video {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 12px;
+  border: 5px solid #f9d5dc;
+}
+
+.gallery-columns {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 4rem;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+
+.left-column, .right-column {
+  flex: 1;
+  min-width: 320px;
+  max-width: 600px;
+}
+
+.gallery-title-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.title-icon-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70px; /* force equal width on both sides */
+}
+
+.gallery-icon-left {
+  height: 110px;
+  margin-right: -46rem;
+}
+
+.gallery-icon-right {
+  height: 135px;
+  margin-left: -46rem;
+}
+
+
