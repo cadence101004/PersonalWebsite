@@ -336,7 +336,7 @@ body {
 
 .video-column video {
   width: 100%;
-  max-width: 400px;
+  max-width: 410px;
   border-radius: 12px;
   border: 5px solid #f9d5dc;
 }
@@ -385,7 +385,8 @@ body {
   width: 100%;
   max-width: 420px;
   aspect-ratio: 16 / 9;
-  margin: 1.5rem auto;
+  margin: 0.5rem auto;
+  margin-top: 0rem;
 }
 
 .video-embed iframe {
