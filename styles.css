@@ -84,7 +84,7 @@ body {
   
   .tagline {
     font-size: 1.5rem;
-    color: #fdf6f8;
+    color: #fdf3f5;;
     font-family: 'Koulen', cursive;
     margin-top: 0.8rem;  /* pulls it upward */
     margin-bottom: 1.8rem;  /* keeps spacing below */
@@ -167,4 +167,76 @@ body {
     padding-left: 1.2rem;
     color: white;
   }
-  
+  /* ACTIVE NAVBAR LINK */
+.nav-left a.active {
+  border-bottom: 3px solid #a4c28d; /* pastel green underline */
+  color: #f9e8ed
+}
+
+/* PROJECTS PAGE STYLING */
+.section-title {
+  font-family: 'Koulen', cursive;
+  font-size: 3rem;
+  background-color: #c49a6c;
+  color: #f9e8ed;
+  display: inline-block;
+  padding: 0.5rem 1.5rem;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.projects-title-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: -2rem;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+  justify-items: center;
+}
+
+.project-card {
+  font-size: 1.1rem;
+  background-color: #fdf3f5;
+  border-radius: 15px;
+  padding: 1.5rem;
+  width: 100%;
+  max-width: 350px;
+  color: #54342a;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.project-card img {
+  width: 130px;
+  height: auto;
+  margin: 1rem auto;
+  display: block;
+}
+
+.project-title {
+  font-size: 1.8rem;
+  font-family: 'Koulen', cursive;
+  background-color: #f4b6c2;
+  color: #fdf3f5;
+  padding: 0.6rem;
+  border-radius: 12px;
+}
+
+.project-card a {
+  font-size: 1.4rem;
+  color: #f4b6c2; /* light pink */
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.project-card a:hover {
+  text-decoration: underline;
+  color: #f78ca2; /* slightly brighter pink on hover */
+}
