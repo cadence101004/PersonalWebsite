@@ -1,0 +1,168 @@
+/* GENERAL FONTS + BACKGROUND */
+body {
+    font-family: 'Gluten', cursive;
+    background-color: #c6cfa3;
+    color: white;
+    margin: 0;
+  }
+  
+  /* NAVBAR */
+  .navbar {
+    font-family: 'Koulen', cursive;
+    font-size: 1.2rem;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #c49a6c;
+    padding: 0.8rem 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .nav-left a {
+    color: #f9d5dc;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 1.5rem;
+  }
+  
+  .melody-icon {
+    height: 70px;
+    object-fit: contain;
+    margin-left: auto;
+    align-self: flex-end;
+    margin-right: 40px;
+    margin-bottom: -14.5px; /* nudges it downward slightly into alignment */
+  }
+  
+  
+  /* PAGE CONTENT */
+  .page-content {
+    margin-top: 100px;
+    padding: 2rem;
+  }
+  
+  /* HERO SECTION */
+  .hero {
+    text-align: center;
+    padding-top: 2rem;
+    margin-bottom: 3rem;
+  }
+  
+  .hero-header {
+    display: flex;
+    justify-content: flex-start; /* shift to the left */
+    align-items: flex-start;
+    gap: 2rem;
+    margin-top: -1rem;
+    text-align: left;
+    padding-left: 19.8rem; /* adjust how far left it goes */
+  }
+  
+  
+  .melody-swing {
+    height: 175px;
+    margin: 0;
+    padding: 0;
+    align-self: flex-start;
+    margin-top: -68px; /* pull swing up to "hang" from navbar */
+  }
+
+  
+  h1 {
+    font-family: 'Koulen', cursive;
+    font-size: 3rem;
+    color: #f9d5dc;
+    background-color: #c49a6c;
+    padding: 0.3rem 1rem;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 0.5rem 0;
+  }
+  
+  .tagline {
+    font-size: 1.5rem;
+    color: #fdf6f8;
+    font-family: 'Koulen', cursive;
+  }
+  
+  /* IMAGES */
+  .image-row {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    margin: 2rem 0;
+  }
+  
+  .side-img {
+    width: 200px;
+    height: 200px;
+    border: 3px solid #f9d5dc;
+    border-radius: 10px;
+    object-fit: cover;
+  }  
+  
+  .side-img {
+    width: 200px;
+    border: 3px solid #f9d5dc;
+  }
+  
+  .center-img {
+    width: 230px;
+    border: 6px solid #f9d5dc;
+    border-radius: 50%;
+  }
+  
+  /* ABOUT BUTTON */
+  .about-button {
+    font-family: 'Koulen', cursive;
+    background-color: #fbc5d8;
+    border: none;
+    font-size: 1.8rem;
+    padding: 0.8rem 1.5rem;
+    border-radius: 10px;
+    font-weight: 900;
+    color: #FFFFC5;
+    cursor: default;
+    margin-top: 1.5rem;
+  }
+  
+  .star {
+    color: #FFFFC5;
+    font-size: 1.2em;
+    margin: 0 0.3rem;
+  }
+  
+  /* ABOUT SECTION */
+  .about-section {
+    background-color: #c49a6c;
+    padding: 2rem;
+    border-radius: 10px;
+    max-width: 800px;
+    margin: 3rem auto 2rem auto;
+    font-size: 1.1rem;
+    font-family: 'Gluten', cursive;
+    line-height: 1.8;
+  }
+  
+  /* SKILLS */
+  .skills-box h3 {
+    background-color: #fbc5d8;
+    display: inline-block;
+    padding: 0.4rem 1rem;
+    border-radius: 10px;
+    color: #FFFFC5;
+    font-size: 1.6rem;
+    font-family: 'Koulen', cursive;
+    margin-top: 1.5rem;
+  }
+  
+  .skills-box ul {
+    list-style-type: circle;
+    margin-top: 1rem;
+    padding-left: 1.2rem;
+    color: white;
+  }
+  
