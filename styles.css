@@ -193,6 +193,16 @@ body {
   margin-top: -2rem;
 }
 
+.peek-image {
+  position: absolute;
+  top: 117px;  /* adjust based on how far below navbar the title is */
+  left: 75.55%;   /* centers relative to page */
+  transform: translateX(-220px); /* scoot it left toward the title */
+  height: 120px;
+  z-index: 1;
+  pointer-events: none;
+}
+
 .projects-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
