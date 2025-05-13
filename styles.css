@@ -33,8 +33,8 @@ body {
     object-fit: contain;
     margin-left: auto;
     align-self: flex-end;
-    margin-right: 40px;
-    margin-bottom: -14.5px; /* nudges it downward slightly into alignment */
+    margin-right: 50px;
+    margin-bottom: -14.9px; /* nudges it downward slightly into alignment */
   }
   
   
@@ -58,7 +58,7 @@ body {
     gap: 2rem;
     margin-top: -1rem;
     text-align: left;
-    padding-left: 19.8rem; /* adjust how far left it goes */
+    padding-left: 19.7rem; /* adjust how far left it goes */
   }
   
   
@@ -86,6 +86,8 @@ body {
     font-size: 1.5rem;
     color: #fdf6f8;
     font-family: 'Koulen', cursive;
+    margin-top: 0.7rem;  /* pulls it upward */
+    margin-bottom: 1.8rem;  /* keeps spacing below */
   }
   
   /* IMAGES */
