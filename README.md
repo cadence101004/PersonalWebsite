@@ -13,6 +13,11 @@ This is my personal website. It features a soft pink and green theme inspired by
 
 [https://cadence101004.github.io/PersonalWebsite/](https://cadence101004.github.io/PersonalWebsite/)
 
+## Figma Prototype
+
+[Click here to view the Figma prototype](https://www.figma.com/design/j7TRQeZIaFcUVGXe9DwhOG/Personal-Website?node-id=0-1&t=yp6U1NytVFfJxsgN-1)
+
+
 ## Technologies Used
 
 - HTML
