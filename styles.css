@@ -555,6 +555,24 @@ body {
   transform: scale(1.05);
 }
 
+.project-card p a.inline-link {
+  color: #5c3b2e;
+  text-decoration: none;
+  font-weight: normal;
+  font-size: inherit;       /* match paragraph size */
+  display: inline;          /* make sure it's inline */
+  margin: 0;                /* remove any weird spacing */
+  padding: 0;
+}
+
+.project-card p a.inline-link:hover {
+  color: #a1738b;
+  text-decoration: underline;
+}
+
+
+
+
 
 
 
