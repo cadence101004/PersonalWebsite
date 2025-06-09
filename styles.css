@@ -1,4 +1,8 @@
 /* GENERAL FONTS + BACKGROUND */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Gluten', cursive;
     background-color: #c6cfa3;
@@ -51,15 +55,14 @@ body {
     margin-bottom: 3rem;
   }
   
-  .hero-header {
+.hero-header {
     display: flex;
-    justify-content: flex-start; /* shift to the left */
+    justify-content: center;  /* center horizontally */
     align-items: flex-start;
     gap: 2rem;
     margin-top: -1rem;
     text-align: left;
-    padding-left: 19.65rem; /* adjust how far left it goes */
-  }
+}
   
   
   .melody-swing {
@@ -189,20 +192,22 @@ body {
 }
 
 .projects-title-wrapper {
-  display: flex;
-  justify-content: center;
-  margin-top: -2rem;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .peek-image {
-  position: absolute;
-  top: 117px;  /* adjust based on how far below navbar the title is */
-  left: 75.55%;   /* centers relative to page */
-  transform: translateX(-220px); /* scoot it left toward the title */
-  height: 120px;
-  z-index: 1;
-  pointer-events: none;
+    position: absolute;
+    right: 381px;  
+    top: 45%;
+    transform: translateY(-50%);
+    height: 120px;
+    pointer-events: none;
 }
+
+
 
 .projects-grid {
   display: grid;
@@ -213,16 +218,17 @@ body {
 }
 
 .project-card {
-  font-size: 1.1rem;
-  background-color: #fdf3f5;
-  border-radius: 15px;
-  padding: 1.5rem;
-  width: 100%;
-  max-width: 350px;
-  color: #54342a;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-  text-align: center;
+    font-size: 1.1rem;
+    background-color: #fdf3f5;
+    border-radius: 15px;
+    padding: 1.5rem;
+    max-width: 350px;
+    width: auto; 
+    color: #54342a;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    text-align: center;
 }
+
 
 .project-card img {
   width: 130px;
