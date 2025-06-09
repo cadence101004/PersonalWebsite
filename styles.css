@@ -225,8 +225,6 @@ body {
     z-index: 0;   
 }
 
-
-
 .projects-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -246,7 +244,6 @@ body {
     box-shadow: 0 5px 15px rgba(0,0,0,0.1);
     text-align: center;
 }
-
 
 .project-card img {
   width: 130px;
@@ -280,7 +277,6 @@ body {
 
 .gallery-page {
   padding: 2rem;
-  background-color: #c6cfa3;
 }
 
 .gallery-title {
