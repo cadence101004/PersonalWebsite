@@ -179,8 +179,10 @@ body {
 
 /* PROJECTS PAGE STYLING */
 .projects-title-wrapper {
+    position: relative;  /* needed for absolute image */
     display: flex;
     justify-content: center;
+    align-items: center;
     margin-top: 1rem;
 }
 
@@ -198,14 +200,13 @@ body {
 
 .peek-image {
     position: absolute;
-    right: -90px;   /* adjust this */
-    top: 45%;      /* adjust this */
+    right: 401px;    /* adjust to move horizontally */
+    top: 40%;        /* adjust to move vertically */
     transform: translateY(-50%);
-    height: 120px;
+    height: 120px;   /* or adjust as needed */
     pointer-events: none;
     z-index: 0;
 }
-
 
 
 .projects-grid {
