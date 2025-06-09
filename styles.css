@@ -179,16 +179,14 @@ body {
 
 /* PROJECTS PAGE STYLING */
 .projects-title-wrapper {
-    position: relative;
     display: flex;
     justify-content: center;
-    align-items: center;
     margin-top: 1rem;
 }
 
 .section-title {
-    display: inline-block;
     position: relative;
+    display: inline-block;
     padding: 0.5rem 1.5rem;
     background-color: #c49a6c;
     color: #f9e8ed;
@@ -200,13 +198,14 @@ body {
 
 .peek-image {
     position: absolute;
-    right: 382px;  /* tweak this */
-    top: 45%;      /* tweak this */
+    right: -90px;   /* adjust this */
+    top: 45%;      /* adjust this */
     transform: translateY(-50%);
     height: 120px;
     pointer-events: none;
     z-index: 0;
 }
+
 
 
 .projects-grid {
