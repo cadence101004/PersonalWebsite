@@ -3,6 +3,11 @@
     box-sizing: border-box;
 }
 
+/* GLOBAL PAGE BACKGROUND FIX — FORCE ALL PAGES TO SHOW BODY BACKGROUND */
+.gallery-page, .resume-page, .contact-page {
+    background: transparent;
+}
+
 body {
     font-family: 'Gluten', cursive;
     background-image: url('images/background.jpg'); 
@@ -277,6 +282,10 @@ body {
 
 .gallery-page {
   padding: 2rem;
+  background-image: url('images/your-background.jpg');
+  background-size: cover; 
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .gallery-title {
@@ -426,6 +435,10 @@ body {
 .resume-page {
   text-align: center;
   padding-top: -1rem;
+  background-image: url('images/your-background.jpg');
+  background-size: cover; 
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .resume-title {
@@ -506,6 +519,10 @@ body {
 .contact-page {
   text-align: center;
   padding-top: 3rem;
+  background-image: url('images/your-background.jpg');
+  background-size: cover; 
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .contact-title {
