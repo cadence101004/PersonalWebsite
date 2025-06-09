@@ -5,10 +5,13 @@
 
 body {
     font-family: 'Gluten', cursive;
-    background-color: #c6cfa3;
+    background-image: url('images/background.jpg'); 
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center;
     color: white;
     margin: 0;
-  }
+}
   
   /* NAVBAR */
   .navbar {
