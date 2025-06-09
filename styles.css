@@ -281,18 +281,15 @@ body {
 }
 
 .gallery-title {
-  text-align: center;
-  font-size: 3rem;
-  font-family: 'Koulen', cursive;
-  background-color: #c49a6c;
-  color: #f9e8ed;
-  border-radius: 12px;
-  padding: 1rem 2rem;
-  display: inline-block;
-  margin: 1rem auto;
-  display: block;
-  width: fit-content;
-  margin-top: -0.3rem;
+    position: relative;
+    display: inline-block;
+    font-size: 3rem;
+    font-family: 'Koulen', cursive;
+    background-color: #c49a6c;
+    color: #f9e8ed;
+    border-radius: 12px;
+    padding: 1rem 2rem;
+    z-index: 1;
 }
 
 .gallery-subtitle {
@@ -378,28 +375,36 @@ body {
 }
 
 .gallery-title-wrapper {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 0.5rem;
-  margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
 }
 
 .title-icon-wrap {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 70px; /* force equal width on both sides */
+  width: 70px; 
 }
 
 .gallery-icon-left {
-  height: 110px;
-  margin-right: -46rem;
+    position: absolute;
+    left: -140px;   
+    top: 50%;
+    transform: translateY(-50%);
+    height: 110px;
+    pointer-events: none;
+    z-index: 0;
 }
 
 .gallery-icon-right {
-  height: 135px;
-  margin-left: -46rem;
+    position: absolute;
+    right: -170px;  
+    top: 50%;
+    transform: translateY(-50%);
+    height: 140px;
+    pointer-events: none;
+    z-index: 0;
 }
 
 .video-embed {
