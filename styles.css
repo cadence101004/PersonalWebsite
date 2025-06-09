@@ -179,34 +179,37 @@ body {
 
 /* PROJECTS PAGE STYLING */
 .projects-title-wrapper {
-    position: relative;  /* needed for absolute image */
     display: flex;
     justify-content: center;
-    align-items: center;
     margin-top: 1rem;
 }
 
-.section-title {
+.projects-title-grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
     position: relative;
-    display: inline-block;
-    padding: 0.5rem 1.5rem;
+}
+
+.section-title {
+    grid-column: 1;
     background-color: #c49a6c;
     color: #f9e8ed;
     border-radius: 10px;
     font-family: 'Koulen', cursive;
     font-size: 3rem;
+    padding: 0.5rem 1.5rem;
     z-index: 1;
 }
 
 .peek-image {
-    position: absolute;
-    right: 401px;    /* adjust to move horizontally */
-    top: 40%;        /* adjust to move vertically */
-    transform: translateY(-50%);
-    height: 120px;   /* or adjust as needed */
+    grid-column: 2;
+    height: 120px;
+    margin-left: -8.5px;  /* NEGATIVE margin → peeks into title box */
+    transform: translateY(-11px);
     pointer-events: none;
-    z-index: 0;
 }
+
 
 
 .projects-grid {
