@@ -389,7 +389,7 @@ body {
 
 .gallery-icon-left {
     position: absolute;
-    left: -140px;   
+    left: -9.5rem;   /* instead of hard pixels */
     top: 50%;
     transform: translateY(-50%);
     height: 110px;
@@ -399,7 +399,7 @@ body {
 
 .gallery-icon-right {
     position: absolute;
-    right: -170px;  
+    right: -11.5rem;  /* adjust as needed */
     top: 50%;
     transform: translateY(-50%);
     height: 140px;
