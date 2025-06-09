@@ -184,9 +184,12 @@ body {
     margin-top: 1rem;
 }
 
+.projects-title-inner {
+    position: relative;   
+    display: inline-block;  /* locks to title size */
+}
+
 .section-title {
-    position: relative;   /* KEY — allows image to anchor to title */
-    display: inline-block;
     background-color: #c49a6c;
     color: #f9e8ed;
     border-radius: 10px;
@@ -198,13 +201,14 @@ body {
 
 .peek-image {
     position: absolute;
-    right: -70px;   /* tweak this */
-    top: 39%;
-    transform: translateY(-50%);
+    right: -62.4px;   
+    top: 50%;
+    transform: translateY(-60%);
     height: 120px;
     pointer-events: none;
-    z-index: 0;
+    z-index: 0;   
 }
+
 
 
 .projects-grid {
