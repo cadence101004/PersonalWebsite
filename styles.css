@@ -184,15 +184,9 @@ body {
     margin-top: 1rem;
 }
 
-.projects-title-grid {
-    display: grid;
-    grid-template-columns: auto auto;
-    align-items: center;
-    position: relative;
-}
-
 .section-title {
-    grid-column: 1;
+    position: relative;   /* KEY — allows image to anchor to title */
+    display: inline-block;
     background-color: #c49a6c;
     color: #f9e8ed;
     border-radius: 10px;
@@ -203,13 +197,14 @@ body {
 }
 
 .peek-image {
-    grid-column: 2;
+    position: absolute;
+    right: -70px;   /* tweak this */
+    top: 39%;
+    transform: translateY(-50%);
     height: 120px;
-    margin-left: -8.5px;  /* NEGATIVE margin → peeks into title box */
-    transform: translateY(-11px);
     pointer-events: none;
+    z-index: 0;
 }
-
 
 
 .projects-grid {
